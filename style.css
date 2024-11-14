@@ -1,7 +1,105 @@
-.tops{
-    display: flex;
-    background: #FCFCE2;
-    flex-direction: row;
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.packstart{
+    font-size: clamp(16px, 1vw, 20px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tops {
+        display: flex;
+        background: linear-gradient(to top right,#FCFCE2,#F5FBFE );
+        padding: 0 10vw;
+        justify-content: center;
+        padding: 5vh 0;
+        gap: 10em;
+}
+.tops .lefty {
+    padding-left: 20em;
+    width: 50%;
     justify-content: center;
-    gap: 10rem;
+    align-content: center;
+}
+.tops .lefty img{
+    width: 25em;
+}
+.tops .righty {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20em;
+    width: 50%;
+}
+.tops .righty h2{
+    color: #4A4A4A;
+    font-size: 2em;
+    padding: 1rem 0;
+}
+.tops .righty p {
+    padding: 1rem 0;
+}
+.tops .righty h1{
+    font-size: 3em;
+    line-height: 0.8;
+    padding: 1rem 0;
+}
+.tops .righty button{
+    background: #0468D7;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7em;
+    border-radius: 3em;
+    padding: 1em;
+    width: 12em;
+}
+.tops .righty button:hover{
+    cursor: pointer;
+}
+.bottoms {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 15em  ;
+}
+.bluebox{
+    background: #042449;
+    border-radius: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    padding: 3em 0 3em 2em;
+    color: white;
+}
+.info h1{
+    font-size: 3em;
+}
+.info p{
+    font-size: 1em;
+}
+.info .oneline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+.info button{
+    background: white;
+    border: none;
+    color: #0468D7;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7em;
+    border-radius: 3em;
+    padding: 1em;
+    width: 8em;
+    margin: 1em;
+}
+.himg img{
+    width: 20em;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
 }
