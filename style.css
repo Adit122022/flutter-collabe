@@ -1,0 +1,7 @@
+.tops{
+    display: flex;
+    background: #FCFCE2;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
