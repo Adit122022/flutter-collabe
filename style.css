@@ -18,9 +18,7 @@
     padding-left: 5em;
     justify-content: center;
     align-content: center;
-    width: 50%;
-    max-width: 300px;
-    min-width: 300px;
+  flex-basis: 50%;
 }
 .tops .lefty img{
     width: 25em;
@@ -30,11 +28,8 @@
     display: flex;
     justify-content: start;
     flex-direction: column;
-    padding-right: 5em;
-    padding-left: 15em;
-    max-width: 400px;
-    width: 100%;
-    min-width: 300px;
+
+   flex-basis: 50%;
 }   
 .tops .righty h2{
     color: #4A4A4A;
@@ -124,17 +119,6 @@
     z-index: 0;
     right: 0;
     top: 0;
-}*{
-margin: 0;
-padding: 0;
-box-sizing :border-box;
-font-family: sans-serif;
-}
-html,body{
-  font-size: 1rem;
-width :100%;
-height :100%;
-
 }
 /* <!-- krishna -->
 
@@ -274,8 +258,10 @@ height :100%;
   display: flex;
   width: 100%;
   flex-direction: column;
+  gap: 2.5rem;
   justify-content: center;
   font-size: 2.6rem;
+  padding: 0 6vh
 }
 .page4_right h1 {
   font-family: "Google Sans", sans-serif;
@@ -309,7 +295,6 @@ height :100%;
   font-family: "Google Sans", "sans-serif";
   padding: 10px 20px;
   font-size: 1.2rem;
-  margin-top: 20px;
 }
 .page5 {
   display: flex;
@@ -318,14 +303,11 @@ height :100%;
   font-family: "Google Sans", "sans-serif", "Roboto", "sans-serif",
     "Roboto Mono", monospace;
   width: 100%;
-  height: 80vh;
-  align-items: center;
-  padding-right: 100px;
+ align-items: center;
   background-image: linear-gradient(to right top, #ffffff, #ffffff);
 }
 .page5_Left {
-  justify-content: center;
-  width: 50%;
+ flex-basis: 50%;
 }
 .page5_Left img {
   width: 90%;
@@ -333,17 +315,18 @@ height :100%;
 }
 .page5_right {
   display: flex;
-  width: 50%;
+  flex-basis: 50%;
   flex-direction: column;
   justify-content: center;
   padding: 0px 1px 0px 205px;
+  gap: 1.5rem;
   font-size: 1.1rem;
 }
 .page5_right h1 {
   font-family: "Google Sans", sans-serif;
   margin-bottom: -22px;
-  font: 60px;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin: 10px 0;
 }
 .page5_right h2 {
   font-family: "Google Sans", sans-serif;
@@ -354,8 +337,7 @@ height :100%;
 }
 .page5_right p {
   font-family: "Roboto", sans-serif;
-  margin-bottom: 26px;
-  font: 20px;
+ 
   color: #4a4a4a;
 }
 .btn_solid_5 {
@@ -385,15 +367,8 @@ height :100%;
 
       <!-- saurabh  end -->
 
-       <!-- sanajana  -->
+       /* <!-- sanajana  --> */
 
-       <!-- sanajana  end --> */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
 
 footer{
     background: #f8f9fa;
